@@ -1,47 +1,92 @@
 {
-  "restaurants": [
+  "categories": [
     {
-      "id": "restaurant_1",
-      "name": "Restaurant 1",
-      "fileName": "restaurant1_logo.jpg",
-      "slug": "/restaurant-1",
-      "distance": 2.5,
-      "foods": [
+      "id": 1,
+      "name": "Araba",
+      "listings": [
         {
-          "id": "food_1",
-          "code": "F001",
-          "description": "Delicious Food 1",
-          "details": "Detailed description of food 1",
-          "unitPrice": 12.5,
-          "availability": "available",
-          "logoUrl": "food1_logo.jpg"
+          "id": 101,
+          "title": "2020 Model BMW",
+          "description": "Az kullanılmış, temiz, kazasız.",
+          "price": "350000",
+          "phone": "+905555555555",
+          "imageUrl": "https://example.com/bmw2020.jpg"
         },
         {
-          "id": "food_2",
-          "code": "F002",
-          "description": "Delicious Food 2",
-          "details": "Detailed description of food 2",
-          "unitPrice": 10.0,
-          "availability": "not available",
-          "logoUrl": "food2_logo.jpg"
+          "id": 102,
+          "title": "2018 Model Audi",
+          "description": "Düşük kilometre, ikinci el.",
+          "price": "280000",
+          "phone": "+905555555556",
+          "imageUrl": "https://example.com/audi2018.jpg"
+        },
+        {
+          "id": 103,
+          "title": "2015 Model Toyota",
+          "description": "Orta segment, uygun fiyatlı.",
+          "price": "150000",
+          "phone": "+905555555557",
+          "imageUrl": "https://example.com/toyota2015.jpg"
         }
       ]
     },
     {
-      "id": "restaurant_2",
-      "name": "Restaurant 2",
-      "fileName": "restaurant2_logo.jpg",
-      "slug": "/restaurant-2",
-      "distance": 4.0,
-      "foods": [
+      "id": 2,
+      "name": "Motor",
+      "listings": [
         {
-          "id": "food_3",
-          "code": "F003",
-          "description": "Delicious Food 3",
-          "details": "Detailed description of food 3",
-          "unitPrice": 8.5,
-          "availability": "available",
-          "logoUrl": "food3_logo.jpg"
+          "id": 201,
+          "title": "2021 Model Yamaha",
+          "description": "Hız tutkunları için ideal.",
+          "price": "90000",
+          "phone": "+905555555558",
+          "imageUrl": "https://example.com/yamaha2021.jpg"
+        },
+        {
+          "id": 202,
+          "title": "2019 Model Honda",
+          "description": "Şehir içi kullanım için uygun.",
+          "price": "60000",
+          "phone": "+905555555559",
+          "imageUrl": "https://example.com/honda2019.jpg"
+        },
+        {
+          "id": 203,
+          "title": "2017 Model Ducati",
+          "description": "Yüksek performans, güçlü motor.",
+          "price": "120000",
+          "phone": "+905555555560",
+          "imageUrl": "https://example.com/ducati2017.jpg"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "İkinci El Eşyalar",
+      "listings": [
+        {
+          "id": 301,
+          "title": "İkinci El Koltuk Takımı",
+          "description": "Az kullanılmış, temiz durumda.",
+          "price": "2000",
+          "phone": "+905555555561",
+          "imageUrl": "https://example.com/koltuk.jpg"
+        },
+        {
+          "id": 302,
+          "title": "Ofis Sandalyesi",
+          "description": "Ergonomik, sağlam yapılı.",
+          "price": "400",
+          "phone": "+905555555562",
+          "imageUrl": "https://example.com/ofis_sandalyesi.jpg"
+        },
+        {
+          "id": 303,
+          "title": "İkinci El Buzdolabı",
+          "description": "Enerji tasarruflu, garantili.",
+          "price": "2500",
+          "phone": "+905555555563",
+          "imageUrl": "https://example.com/buzdolabi.jpg"
         }
       ]
     }
