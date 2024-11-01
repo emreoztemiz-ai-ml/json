@@ -3,7 +3,7 @@
     {
       "id": "restaurant_1",
       "name": "Restaurant 1",
-      "fileName": "restaurant1_logo.jpg",
+      "fileName": "https://img.freepik.com/premium-photo/restaurant-with-green-leaf-ceiling_763111-305022.jpg",
       "slug": "/restaurant-1",
       "distance": 2.5,
       "foods": [
@@ -14,7 +14,7 @@
           "details": "Detailed description of food 1",
           "unitPrice": 12.5,
           "availability": "available",
-          "logoUrl": "food1_logo.jpg"
+          "logoUrl": "https://lezzetlikareler.com/images/gorseller/hamburger-fotograf-cekimi.jpg"
         },
         {
           "id": "food_2",
@@ -23,14 +23,14 @@
           "details": "Detailed description of food 2",
           "unitPrice": 10.0,
           "availability": "not available",
-          "logoUrl": "food2_logo.jpg"
+          "logoUrl": "https://lezzetlikareler.com/images/gorseller/pizza-close-up.jpg"
         }
       ]
     },
     {
       "id": "restaurant_2",
       "name": "Restaurant 2",
-      "fileName": "restaurant2_logo.jpg",
+      "fileName": "https://www.kempinski.com/var/site/storage/images/1/2/9/6/86921-1-eng-GB/22f6d4d81e84-73660551_4K.jpg",
       "slug": "/restaurant-2",
       "distance": 4.0,
       "foods": [
@@ -41,7 +41,7 @@
           "details": "Detailed description of food 3",
           "unitPrice": 8.5,
           "availability": "available",
-          "logoUrl": "food3_logo.jpg"
+          "logoUrl": "https://img.taste.com.au/QL3BQmQN/w643-h428-cfill-q90/taste/2016/11/lemon-delicious-47855-1.jpeg"
         }
       ]
     }
