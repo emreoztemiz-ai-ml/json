@@ -1,0 +1,49 @@
+{
+  "restaurants": [
+    {
+      "id": "restaurant_1",
+      "name": "Restaurant 1",
+      "fileName": "restaurant1_logo.jpg",
+      "slug": "/restaurant-1",
+      "distance": 2.5,
+      "foods": [
+        {
+          "id": "food_1",
+          "code": "F001",
+          "description": "Delicious Food 1",
+          "details": "Detailed description of food 1",
+          "unitPrice": 12.5,
+          "availability": "available",
+          "logoUrl": "food1_logo.jpg"
+        },
+        {
+          "id": "food_2",
+          "code": "F002",
+          "description": "Delicious Food 2",
+          "details": "Detailed description of food 2",
+          "unitPrice": 10.0,
+          "availability": "not available",
+          "logoUrl": "food2_logo.jpg"
+        }
+      ]
+    },
+    {
+      "id": "restaurant_2",
+      "name": "Restaurant 2",
+      "fileName": "restaurant2_logo.jpg",
+      "slug": "/restaurant-2",
+      "distance": 4.0,
+      "foods": [
+        {
+          "id": "food_3",
+          "code": "F003",
+          "description": "Delicious Food 3",
+          "details": "Detailed description of food 3",
+          "unitPrice": 8.5,
+          "availability": "available",
+          "logoUrl": "food3_logo.jpg"
+        }
+      ]
+    }
+  ]
+}
